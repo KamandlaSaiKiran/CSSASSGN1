@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="q1.css">
+    <style>
+            .i1 {
+                color: aqua;
+                background-color: yellow;
+                border-color: black;
+
+            }
+             *{ /*universal selector takes the control over the elements if not pointed by any selector */
+                 color:blueviolet;   /*  The Internal sytle sheets takes the first priority over the external style  */
+                
+            }
+    </style>
+</head>
+<body>
+    <h1>Introduction to CSS</h1>
+    <h2>Introduction to External Casading Style Sheets</h2>
+   <div class="e1">
+    <h3 class="d1">Hyderabad</h3>
+    <h3 class="d2">Humpi</h3>
+    <h3 class="d3">Harayana</h3>
+
+   </div>
+   <h2>Introduction to Internal Style Sheets</h2>
+    <div class="i1">
+        <h3 class="i2">uttarpradesh</h3>
+        <h3 class="i3">Uttarakhand</h3>
+        <h3 class="i4">Udaipur</h3>
+    </div>
+    <h2>Introduction to Inline Style Sheets</h2>
+    <div style="border-color: aquamarine;">
+        <h3 style="background-color: hsla(20,40%,50%,0.8); color:aliceblue">Narayanapet</h3>
+        <h3 style="ccolor:red">NagarKurnool</h3>
+    </div>
+    <h2>Priority Of Differernt Styles as follows</h2>
+    <h3 class="e1" class="i1" style="color:blue;">Inline Style Sheets > Internal Style Sheets > Inline Style Sheets</h3>
+</body>
+</html>
